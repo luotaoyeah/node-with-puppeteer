@@ -1,0 +1,9 @@
+{
+  "name": "@luotao/node-with-puppeteer",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "docker:build": "docker build -f ./Dockerfile -t luotaoyeah/node-with-puppeteer:latest ./",
+    "docker:push": "docker push luotaoyeah/node-with-puppeteer:latest"
+  }
+}
