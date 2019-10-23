@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "docker:build": "docker build -f ./Dockerfile -t luotaoyeah/node-with-puppeteer:latest ./",
-    "docker:push": "docker push luotaoyeah/node-with-puppeteer:latest"
+    "docker:build": "docker build -f ./Dockerfile -t luotaoyeah/node-with-puppeteer:20191023 ./",
+    "docker:push": "docker push luotaoyeah/node-with-puppeteer:20191023"
   }
 }
