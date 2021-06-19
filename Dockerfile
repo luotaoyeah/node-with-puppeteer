@@ -1,4 +1,4 @@
-FROM node:12 AS stage-build
+FROM node:15.14.0-buster-slim AS stage-build
 
 RUN apt-get update \
     && apt-get install -yq --no-install-recommends \
